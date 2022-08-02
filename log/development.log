@@ -1,0 +1,27 @@
+  [1m[35m (132.9ms)[0m  [1m[35mCREATE DATABASE "tplant_backend_development" ENCODING = 'unicode'[0m
+  [1m[35m (83.7ms)[0m  [1m[35mCREATE DATABASE "tplant_backend_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-08-02 09:48:29 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.7ms | Allocations: 403)
+Completed 200 OK in 19ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 3446)
+
+
+Started GET "/favicon.ico" for ::1 at 2022-08-02 09:48:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for ::1 at 2022-08-02 09:48:32 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.7ms | Allocations: 178)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 811)
+
+
+Started GET "/" for ::1 at 2022-08-02 09:48:33 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-2.7.4/gems/railties-6.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 8)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 236)
+
+
